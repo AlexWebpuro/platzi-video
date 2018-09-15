@@ -1,0 +1,39 @@
+.live {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 40px;/
+    color: white;
+    animation-name: live;
+    animation-duration: 2.5s;
+    animation-delay: ease;
+    animation-iteration-count: infinite;
+    color: white;
+
+}
+
+.live-p {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 14px;
+}
+
+@keyframes live {
+    0% {
+        background-color: #00e509; 
+    }
+
+    50% {
+        background-color: #06ab0d; 
+    }
+
+    100% {
+        background-color: #00e509; 
+    }
+}
