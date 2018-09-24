@@ -14,6 +14,7 @@ function Related (props) {
 					return(
 						<MyPlaylist
 						title={item.title}
+						key={item.id}
 						{...item}
 						/>
 					)

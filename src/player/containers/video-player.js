@@ -99,7 +99,7 @@ class VideoPlayer extends Component {
 				/>
 				</Control>
 				<Title
-				title="Esto es un video chido!"
+				title={this.props.title}
 				/>
 				<Spinner
 				active={this.state.loading}
@@ -107,7 +107,7 @@ class VideoPlayer extends Component {
 				<Video
 				pause={this.state.pause}
 				autoplay={this.props.autoplay}
-				src="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+				src={this.props.src}
 				handleLoadedMetadata={this.handleLoadedMetadata}
 				handleTimeUpdate={this.handleTimeUpdate}
 				handleSeeking={this.handleSeeking}

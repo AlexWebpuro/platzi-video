@@ -2,6 +2,26 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	animation: loading .5s forwards;
+}
+
+.Spinner span {
 	color: white;
-	height: 100%;
+
+}
+
+@keyframes loading {
+	from {
+		background-color: rgba(0,0,0, 0);
+	}
+
+	to {
+		background-color: rgba(0,0,0, .3);
+	}
+
 }

@@ -4,9 +4,9 @@ import './Media.css'
 
 class Media extends PureComponent {
 
-	// handleClick = event => {
-	// 	this.props.handleClick(props)
-	// }
+	handleClick = event => {
+		this.props.openModal(this.props)
+	}
 	 render() {
 	 	return (
  

@@ -6,7 +6,9 @@ const MyPlaylist = (props) => {
 	return(
 
 			<li className="My-Playlist-li">
-				{props.title} <small><a href={props.src}>ver</a></small>
+				<a href={props.src}>
+					{props.title}
+				</a>
 			</li>
 	)
 }
